@@ -1,0 +1,532 @@
+@font-face {      
+font-family: "Codec Pro Bold";      
+src: url("../fonts/codec.cold-trial-bold.ttf"'../fonts/Codec Pro.ttf') format('truetype')
+}
+
+body {  
+font-family: "Codec Pro Bold", sans-serif;
+}
+
+@font-face {      
+font-family: "Codec Pro Regular"; 	    
+src: url("../fonts/codec.cold-trial-regular.ttf"'../fonts/Codec Pro.ttf') format('truetype')
+}
+
+body {  
+font-family: "Codec Pro Regular", sans-serif;
+}
+
+@font-face {      
+font-family: "Codec Pro Thin";      
+src: url("../fonts/codec.cold-trial-thin.ttf"'../fonts/Codec Pro.ttf') format('truetype')
+}
+
+body {  
+font-family: "Codec Pro Thin", sans-serif;
+}
+
+:root{
+	--color-fondo-navbar:#000000;
+	--color-fondo-boton-shop-now:#000000;
+	--color-letras-boton-shop-now:#FFFFFF;
+	--color-navbar-letras:#FFFFFF;
+	--color-navbar-letras-hover:#2ad2c9;
+	--color-titulos-secciones:#000000;
+	--color-fondo-Shop-Now-Feedback-from-Customers:#FFFFFF;
+	--color-fondo-formulario:#2AD1C8;
+	--color-fondo-Our-Products-About-Us:#D5F6FF;
+	--color-fondo-About-Our-Products:#75D5EB
+	
+}
+body{
+	font-family: 'Code Pro Regular', sans-serif;
+	font-size: 14px;
+	color:var(--color-titulos-secciones);
+	background-color:#FFFFFF;
+	position: relative;
+	padding: 0 5%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header{
+	height:10vh;
+	margin: 0;
+	padding:0;
+}
+
+
+h1{
+font-family: 'Code Pro Regular', sans-serif;
+color: var(--color-titulos-secciones);
+}
+
+h2{
+font-family: 'Code Pro Bold', sans-serif;
+color: var(--color-titulos-secciones);
+}
+
+h3,h4{
+font-family: 'Code Pro Thin', sans-serif;
+color: var(--color-titulos-secciones);
+}
+
+.shop-now{
+	width: 45%;
+	text-align:right;
+	margin:auto;
+}
+
+#shop now{
+	background-color: var(--color-fondo-Shop-Now-Feedback-from-Customers);
+	margin-top: 10px;
+	border-radius: 20px;
+	color:var(--color-titulos-secciones);
+	background-image:url("../img/boee-waterproof-bp-orange.png"); 
+	background-size: cover;
+	font-size:18px;
+	font-weight: 300;	
+	text-align: center;
+}
+#shop now h1{
+	font-size:18px;
+	font-weight:80;
+	text-align: right;
+	position: absolute;
+	box-sizing: border-box;
+}
+#shop now h2{
+	font-size:14px;
+	text-align: right;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+
+
+.titulos-section h1{
+	font-size: 30px;
+	font-weight: 30px;
+	color:var(--color-titulos-secciones);
+	text-align:center;
+}
+
+.titulos-section h2{
+	font-size: 14px;
+	color:var(--color-titulos-secciones);
+	text-align:center;
+	font-family: "Codec Pro Bold", sans-serif;
+}
+
+.titulos-section h3{
+	font-size: 14px;
+	color:var(--color-titulos-secciones);
+	text-align:center;
+	font-family: 'Code Pro Thin', sans-serif;
+}
+
+.titulos-section h4{
+	font-size: 14px;
+	color:var(--color-titulos-secciones);
+	text-align:center;
+	font-family: 'Code Pro Thin', sans-serif;
+}
+
+.titulos-section p{
+	font-size: 16px;
+	color:var(--color-titulos-secciones);
+	font-family: "Codec Pro Regular", sans-serif;
+}
+
+
+#about our products {
+font-family: "Codec Pro Regular", sans-serif;
+text-align: center;	
+color: var(--color-titulos-secciones);
+background-color:#75D5EB;
+margin-left: 35%;	
+}
+
+#about our products h1{
+	font-family: "Codec Pro Bold", sans-serif;
+	color: var(--color-titulos-secciones);
+	text-align: center;
+	font-size: 55px;
+	font-weight: 700;
+	margin: 20px 0;margin: 40px 0;
+}
+
+
+#about our products h3{
+	font-family: "Codec Pro Regular", sans-serif;
+	color: var(--color-titulos-secciones);
+	text-align: center;
+	margin: 20px 0;
+	margin: 20px 0 10px;
+}
+
+#about our products h4{
+	color: var(--color-titulos-secciones);
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 20px 0;margin: 20px 0 20px;
+}
+
+#about our products p{
+	font-family: "Codec Pro Regular", sans-serif;
+	color: var(--color-titulos-secciones);
+	font-size: 13px;
+	text-align: center;
+}
+*,body{	
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.checked {
+  color: orange;
+}
+.titulowater{
+	background-color: #d5f6ff;
+	justify-content: center;
+	display: flex;
+	margin: 0;
+	padding-bottom: 5rem;
+}
+.subtituloproducts{
+	background-color: #d5f6ff;
+	justify-content: center;
+	display: flex;
+	margin: 0;
+	padding-bottom: 2rem;
+}
+ .mochila img{
+	width: 40%;
+}
+.tituloabout{
+	justify-content: center;
+	display: flex;
+}
+.Booetexto{
+	font-size: 17px;
+	padding-right: 12%;
+	padding-left: 12%;
+	padding-top: 1.5rem;
+	color: black;
+}
+.Meet{
+justify-content: center;
+display: flex;
+color: black;
+}
+.texto2{
+	justify-content: center;
+	display: flex;
+	color: black;
+}
+.imagenjefe{
+	width: 300px;
+	height: 200px;
+}	
+.textogigante{
+	max-width: 50vw;
+	width: 500%;
+}
+.textorebelde{
+font-size: 17px;
+text-align: right;
+}
+.caja{
+display: flex;
+height: 50vh;
+}
+.clasepasadadisenoweb2,
+.textoreciorebelde{
+justify-content: space-between;
+margin: 1rem;
+}
+.clasepasadadisenoweb2{
+	width: 70%;
+	margin-right: 0.5rem;
+	display: flex;
+	justify-content: center;
+	
+}
+.textoreciorebelde{
+	width: 30%;
+	margin-left: 0.5rem;
+}
+header,
+.navbar,
+#navbarNav,
+.navbar-brand,
+.img-fluid,
+.arriba,
+.nav-link
+{
+	
+}
+.semeagotaronlosnombres{
+	display: flex;
+	height: 75vh;
+	width: 100vw;
+}
+aside,
+section{
+	justify-content: space-around;
+	margin: 1rem;
+	
+}
+aside{
+		display: flex;
+	width: 45%;
+	margin-right: 0.25rem;
+	justify-content: flex-end;
+}
+section{
+	width: 40%;
+	margin-left: 0.25rem;
+}
+.imagen img{
+	width: 80%;
+}
+.imgwaterproof16l{
+	width: 100vw;
+	height:100vh;
+	display: flex;
+}
+.textonaranja{
+	padding-top: 20%;
+}
+.titulo{
+	text-align: left;
+	padding-left: 1rem;
+}
+.video{
+	display: flex;
+	justify-content: space-around;
+	width: 70vw;
+	margin-left: 15%;
+}
+#newsletter.section{
+	background-color:#75D5EB;
+}
+.titulos-news h1{
+	text-align: center;
+	font-weight: 1px;
+	padding-top: 20px;
+	font-family: "Codec Pro Bold";	
+}
+
+.titulos-news p{
+	text-align: center;
+	padding-bottom: 0px;
+	font-family: "Codec Pro Regular";
+	font-weight: 70px;
+}
+
+.list-inline{
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.btn-warning{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 12px;
+    font-size: 22px;
+}
+
+.titulos-news img{
+    padding: 0px;
+    margin-left: -70px;
+	margin-top: -140px;
+}
+#newsletter  .titulos-news{
+	padding-bottom: -20px;
+}
+
+.mc-field-group{
+	margin-left: 90px;
+}
+
+	
+.videocontainer{
+flex: 1;
+margin-top: 12px;	
+}
+.videocontainer video{
+	width: 99.9%;
+}
+.contenido2{
+	background-color: #d5f5ff;
+}
+
+.sectiondecompra{
+	
+	
+}
+.penultimasection{
+	display: flex;
+	justify-content: center;
+}
+.imgagen2{
+	margin: 0;
+}
+.imgagen3{
+margin: 0;
+}
+.titulo1{
+	width: 100vw;
+	height: 100vh;
+}
+.tiulo1 img{
+	width: 100vw;
+	height: 100vh;
+}
+.final{
+	width: 100%;
+}
+.form-group{
+	padding-top: 1rem;
+	margin-left: 40%;
+	margin-right: 40%
+}
+form button{
+	margin-top: 1rem !important;
+	margin-left: 48.5%;
+	margin-right: 45%;
+	margin-bottom: 2rem;
+}
+.stay{
+	justify-content: center;
+	display: flex;
+}
+#justo{
+	margin-left: 38%;
+	margin-right: 38%;
+	text-align: center;
+}
+footer{
+	padding-top: 3rem;
+	background-color:#75D5EB;
+}
+
+.sectionpurchase{
+	font-size: 20%;
+	font-family: "Codec Pro Bold", sans-serif;
+	justify-content: center;
+	display: flex;
+}
+.sectionwaterproof{
+	font-size: 19px;
+	font-family: "Codec Pro Regular", sans-serif;
+	justify-content: center;
+	display: flex;
+}
+.textotiffany{
+	font-size: 17px;
+	font-family: "Codec Pro Regular", sans-serif;
+	justify-content: center;
+	display: flex;
+}
+.titulofeedback{
+	justify-content: center;
+	display: flex;
+	font-size: 40px;
+}
+.productos{
+	background-color: #75D5EB;
+}
+.ayuda{
+	margin-left: 42%;
+	margin-right: 30%;
+	padding-top: 1.5rem;
+}
+.ayuda h1{
+	font-size: 3.3rem;
+}
+.ayuda h3{
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+	font-size: 2.4rem;
+}
+.agua h5,
+.agua p{
+	padding-top: 1rem;
+	color: black !important;
+}
+.agua h5{
+	font-size: 1.5rem;
+}
+.agua p{
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 1.3rem;
+}
+.productos, 
+.ayuda,
+.agua{
+	color: black !important;
+}
+.precio h5,
+.precio p{
+	padding-top: .5rem;
+	color: black !important;
+	
+}
+.divinidad{
+	margin-left: 38%;
+	margin-right: 30%;
+	padding-top: 1.5rem;
+}
+.divinidad h1{
+	font-size: 3.3rem;
+}
+.divinidad h3{
+	margin-left: 16%;
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+	font-size: 2.4rem;
+}
+.fondoproducts{
+	background-color: #d5f5ff;
+	height: 80vh;
+}
+.precio{
+	height: 30vh;
+}
+.precio img{
+	height: 50%;
+}
+.adios{
+	padding-bottom: 2rem;
+}
+.matenme h1,
+.matenme h4{
+	display: flex;
+	justify-content: center;
+}
+.matenme p{
+	padding: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	color: black !important;
+	text-align: center;
+}
+.matenme{
+	margin-left: 31%;
+}
+.desgraciado{
+	width: 100vw;
+}
+.yanoquiero{
+	width: 100vw;
+	display: flex;
+}
+.adios img{
+	width: 55vw;
+	height: 100vh;
+}
